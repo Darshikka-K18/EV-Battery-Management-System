@@ -10,7 +10,7 @@ A MATLAB/Simulink implementation of a Battery Management System (BMS) designed f
 * **Fault Detection & Signal Debouncing:** Monitors individual cell voltages and module temperatures using debounced error counters to prevent false-positive fault triggers.
 * **State-Machine Control:** Built using Stateflow/logic state machines to manage seamless transitions across `Idle`, `Discharge`, `Charge`, and `Fault` operational modes.
 * **Automated Contactor Isolation:** Automatically trips high-voltage safety contactors to isolate the pack upon detecting over-voltage, under-voltage, or thermal safety violations.
-* **Dynamic Cell Modeling:** Incorporates lookup tables for Open-Circuit Voltage ($OCV\text{--}SoC$) and Internal Resistance ($R_{int}\text{--}Temp$) dynamics.
+* **Dynamic Cell Modeling:** Incorporates lookup tables for Open-Circuit Voltage and Internal Resistance dynamics.
 
 ---
 
