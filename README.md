@@ -4,7 +4,7 @@ A MATLAB/Simulink implementation of a Battery Management System (BMS) designed f
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 * **State-of-Charge (SoC) Estimation:** Implements discrete-time Coulomb counting integration to track pack SoC, remaining capacity, and energy output in real time.
 * **Fault Detection & Signal Debouncing:** Monitors individual cell voltages and module temperatures using debounced error counters to prevent false-positive fault triggers.
@@ -14,7 +14,7 @@ A MATLAB/Simulink implementation of a Battery Management System (BMS) designed f
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 * `BMS.slx` — Main Simulink simulation model containing the 3S1P battery pack, sensor blocks, control state machine, and interactive dashboard.
 * `BMSLib.slx` — Custom Simulink block library containing reusable debounce filter components.
